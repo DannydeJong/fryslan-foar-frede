@@ -1,0 +1,31 @@
+.flyer-section {
+  margin-bottom: 2rem;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 50, 50, 0.06);
+  transition: all 0.3s ease;
+}
+
+.flyer-section:hover {
+  border-color: rgba(255, 50, 50, 0.15);
+}
+
+.flyer-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.flyer-placeholder {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a0a0a, #2a0a1a);
+  color: #663333;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

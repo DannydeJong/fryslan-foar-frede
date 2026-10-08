@@ -1,0 +1,81 @@
+.description-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 50, 50, 0.06);
+  transition: all 0.3s ease;
+  p.intro {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  p {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .emphasis {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #ff4444;
+  }
+}
+
+.description-section:hover {
+  border-color: rgba(255, 50, 50, 0.12);
+}
+
+blockquote {
+  margin: 0;
+  quotes: none;
+  border-left: 3px solid rgba(255, 50, 50, 0.1);
+  padding-left: 0.5rem;
+  font-style: italic;
+}
+
+blockquote p {
+  color: #ccccdd;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.highlight {
+  background: linear-gradient(135deg, #ff1a1a, #cc0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.tagline {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-size: 1.05rem !important;
+  padding-top: 0.8rem;
+  margin-top: 0.8rem;
+  border-top: 1px solid rgba(255, 50, 50, 0.08);
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .description-section {
+    padding: 1rem 1.2rem;
+  }
+
+  blockquote p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .tagline {
+    font-size: 0.95rem !important;
+  }
+}
